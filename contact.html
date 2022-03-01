@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Newspaper Template, About</title>
+<title>ポートフォリオ・グエンバンドクグエンバンドク</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <!--
@@ -50,17 +50,16 @@ ddsmoothmenu.init({
         <div id="tooplate_menu" class="ddsmoothmenu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html" class="selected">PROFILE</a>
+                <li><a href="about.html">PROFILE</a>
                     <ul>
                         <li><a href="#">Sub menu 1</a></li>
                         <li><a href="#">Sub menu 1</a></li>
                         <li><a href="#">Sub menu 1</a></li>
                   </ul>
                 </li>
-                
+               
                 <li><a href="blog.html">BLOG</a></li>
-		   <li><a href="contact.html">CONTACT</a></li>
-            
+                <li><a href="contact.html" class="selected">CONTACT</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of tooplate_menu -->
@@ -68,42 +67,39 @@ ddsmoothmenu.init({
     
     <div id="tooplate_main">
 		<div id="content" class="float_l">
-        
-        	<h2>Webプログラマーになれるよう。</h2>
-            <div class="image_frame image_fl"><span></span><img src="images/tooplate_image_01.jpg" alt="" /></div>
-            <p>私は高校生時代からずっとパソコンに操作の興味が好きですので、大学に入ってから無線通信及び連絡情報を専攻しました。最近の会社で約2年間、電気工事士として仕事をしていましたが、WEBプログラマーの仕事がしたいという思いから、転身を決心をいたしました。</p>
-           	<p>大学での時デジタルコンピューター構造、アセンブリ言語技術、Cプログラミング技術を勉強しました。今でもプログラマーになりたくて、オンライン講座をうけながら、WEBサイトを作成しています。作成中でphpMyAdminやMySQL,ApacheWebサーバーのでを使っているとき、WEBページがブラウザに表示されるまで
-                の流れを了解しました。HTTPの仕組みとクライアントサイドスクリプトとサーバーサイドスクリプトの違いを理解しました。</p>
-            <div class="image_frame image_fr"><span></span><img src="images/tooplate_image_02.jpg" alt="" /></div>
-            <p>更に世界中に影響力を強めているWEBプログラマーの業界に魅力を感じています。<br>
-                今後は前職で培ったコミュニケーション力を活かし、エンドユーザー様やお客様のニーズに寄り添った使い心地の良いシステムプロダクトを追求し、WEBプログラマーとして活躍したいと思っています。</p>
+        	<!-- <iframe width="600" height="320" style="border: 10px solid #ddd" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=EN&amp;q=time+square&amp;aq=&amp;sll=40.716558,-73.931122&amp;sspn=0.40438,1.056747&amp;ie=UTF8&amp;rq=1&amp;ev=p&amp;split=1&amp;radius=33.22&amp;hq=time+square&amp;hnear=&amp;ll=37.061753,-95.677185&amp;spn=0.438347,0.769043&amp;z=9&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=EN&amp;q=time+square&amp;aq=&amp;sll=40.716558,-73.931122&amp;sspn=0.40438,1.056747&amp;ie=UTF8&amp;rq=1&amp;ev=p&amp;split=1&amp;radius=33.22&amp;hq=time+square&amp;hnear=&amp;ll=37.061753,-95.677185&amp;spn=0.438347,0.769043&amp;z=9">View Larger Map</a></small> -->
+     		<div class="cleaner h40"></div>
+		
+            <h2>Contact Me</h2>
+            <p>お問い合わせ内容の確認後、担当者よりご連絡させていただきます。
+                なお、お問い合わせ内容によってはご連絡ができかねる場合もございます。
+                あらかじめご了承くださいますようお願いいたします。</p>
+            <h5>こちらのお問い合わせフォーム </h5>
+            <div id="contact_form">
+               <form class="formrun" action="https://form.run/api/v1/r/5i4gkbyg4sfy5i8okg16hfrv" method="post">
+                    
+                    <label for="author">Name:</label> 
+                    <input type="text" id="author" name="author" class="required input_field" />
+                    <div class="cleaner h10"></div>
+                    <label for="email">Email:</label> 
+                    <input type="text" id="email" name="email" class="validate-email required input_field" />
+                    <div class="cleaner h10"></div>
+                    
+                    <label for="phone">Phone:</label> 
+                    <input type="text" name="phone" id="phone" class="input_field" />
+                    <div class="cleaner h10"></div>
+    
+                    <label for="text">Message:</label> 
+                    <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                    <div class="cleaner h10"></div>
+                    
+                    <input type="submit" class="submit_btn" name="submit" id="submit" value="Send" />
+                    
+                </form>
+            </div>
             
             <div class="cleaner h40"></div>
             
-            <div class="col one_third">
-                <h5>活かせる経験・知識・スキル</h5>
-                <ul class="tmo_list">
-                    <li>マイクロソフトオフィス（文書作成・データ表作成・プレゼン資料作成）</li>
-                    <li>HTML（ホームページ作成）</li>
-                    <li>CSS（ホームページ作成・簡単なアニメーション・表現の幅を広げるため勉強中）</li>
-                    <li>JavaScriptの基本データを操作するオブジェクト</li>
-                    <li>JavaScriptにおけるオブジェクト指向</li>
-                    <li>クライアントサイドJavaScriptの前提知識</li>
-                    <li>タイマー機能を実装する</li>
-                </ul>
-            </div>
-            <div class="col one_third no_margin_right">
-                <h5></h5>
-                <ul class="tmo_list">
-                    <li>phpMyAdminによるMySQL操作</li>
-                    <li>PHPのクラスの基礎知識</li>
-                    <li>PHPでのファイルとディレクトリの操作</li>
-                    <li>AWSのサービスを使用したデカップリングメカニズムの設計</li>
-                    <li>適切な回復力のあるストレージ</li>
-                    <li>ワークロードに対するパフォーマンスが高いネットワーキングソリューション</li>
-                    <li>セキュアなアプリケーションとアーキテクチャの設計</li>
-                </ul>
-			</div>        
         </div>
         
         <div id="sidebar" class="float_r">
@@ -111,7 +107,7 @@ ddsmoothmenu.init({
             
             <div class="cleaner h40"></div>
             
-            <h5>Contact me</h5>
+            <h5>Recent Posts</h5>
             <div class="rp_pp">
                 
                 <p>お問い合わせはこちらまでお願いします</p>
@@ -125,6 +121,9 @@ ddsmoothmenu.init({
              </p>
 
             </div>
+            
+            <div class="cleaner h40"></div>
+
             
         </div>        
         
@@ -151,14 +150,12 @@ ddsmoothmenu.init({
             <ul class="footer_list">
             	<li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">PROFILE</a></li>
-                
                 <li><a href="blog.html">BLOG</a></li>
-		   <li><a href="contact.html">CONTACT</a></li>
-               
+                <li><a href="contact.html">CONTACT</a></li>
 			</ul>
         </div>
         <div class="col one_fourth">
-        	<h4>Follow Us</h4>	
+        	<h4>Follow Me</h4>	
             
             <div class="footer_social_button">
                 <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
@@ -171,9 +168,9 @@ ddsmoothmenu.init({
         </div>
         
         <div class="col one_fourth no_margin_right">
-        	<h4>Twitter</h4>
+        	<h4>MyBlog</h4>
             <ul class="twitter_post">
-	            <li>Suspendisse at scelerisque urna. Aenean tincidunt massa in tellus varius ultricies. <a href="#">http://bit.ly/13IwZO</a></li>
+	            <li>最新の AWS サービス情報を踏まえた、AWSの知識をBLOGへ掲載しております。以下のリンクからアクセスできます。ぜひご覧ください。 <a href="blog.html">BLOG</a></li>
 			</ul>
         </div>
         <div class="cleaner"></div>
@@ -182,7 +179,7 @@ ddsmoothmenu.init({
 
 <div id="tooplate_footer_wrapper">
 	<div id="tooplate_footer">
-    	 Copyright © 2048 Your Company Name 
+    	 Copyright © 2048 Your Company Name
     </div> <!-- END of tooplate_footer -->
 </div> <!-- END of tooplate_footer_wrapper -->
 
